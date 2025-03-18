@@ -1,0 +1,94 @@
+#topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+}
+
+#background{
+    display:flex ;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1, h2, h3 {
+    color: #002244; /* Azul ainda mais escuro para destacar os títulos */
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px  white; /* Contorno branco para melhor leitura */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333; /* Cinza escuro para melhor contraste */
+    text-align: justify;
+
+    text-shadow: 1px 1px 3px white; /* Contorno branco sutil */
+}
+
+a {
+    color: #004080; /* Azul vibrante para links */
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px white; /* Contorno leve */
+}
+
+a:hover {
+    color: #002244;
+    text-decoration: underline;
+}
+
+li{
+    font-size: 18px;
+    line-height: 1.6;
+    color: black; /* Cinza escuro para melhor contraste */
+    text-align: justify;
+    text-shadow: 1px 1px 3px white; /* Contorno branco sutil */
+}
+
+#sobreBody{
+    background-image: url(/Assets/backgroundsobre.jpg);
+}
+
+#indexBody{
+    background-image: url(/Assets/background.jpg);
+}
+
+#localizacao{
+    display: flex;
+    justify-content: center;
+}
+
+#sobreTexto{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#textoBasico{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#textoContato{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
